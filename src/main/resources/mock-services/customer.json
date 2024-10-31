@@ -1,0 +1,28 @@
+{
+  "customers": [
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f30",
+      "accountIds": [
+        "076a1181-6c1a-406e-846e-924e82fc3f10"
+      ],
+      "partyId": "076a1181-6c1a-406e-846e-924e82fc3f01",
+      "partyType": "I",
+      "param": {
+        "preferredLanguage": "en_US"
+      },
+      "created": "2020-01-01T00:00:00Z"
+    },
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f32",
+      "accountIds": [
+        "076a1181-6c1a-406e-846e-924e82fc3f12"
+      ],
+      "partyId": "076a1181-6c1a-406e-846e-924e82fc3f11",
+      "partyType": "O",
+      "param": {
+        "preferredLanguage": "en_US"
+      },
+      "created": "2020-01-03T00:00:00Z"
+    }
+  ]
+}

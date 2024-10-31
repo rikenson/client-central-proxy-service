@@ -1,0 +1,52 @@
+{
+  "accounts": [
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f70",
+      "number": "1234567890",
+      "balance": 1000.00,
+      "currency": "USD",
+      "status": "ACTIVE",
+      "type": "SAVINGS",
+      "customerId": "076a1181-6c1a-406e-846e-924e82fc3f30",
+      "params": {
+        "minAlertBalance": 99.99
+      }
+    },
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f71",
+      "number": "1234567891",
+      "balance": 2000.00,
+      "currency": "CA",
+      "status": "ACTIVE",
+      "type": "WEALTH",
+      "customerId": "076a1181-6c1a-406e-846e-924e82fc3f32",
+      "params": {
+        "minAlertBalance": 100.00
+      }
+    },
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f72",
+      "number": "1234567892",
+      "balance": 3000.00,
+      "currency": "USD",
+      "status": "ACTIVE",
+      "type": "SAVINGS",
+      "customerId": "076a1181-6c1a-406e-846e-924e82fc3f30",
+      "params": {
+        "minAlertBalance": 100.00
+      }
+    },
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f73",
+      "number": "1234567893",
+      "balance": 4000.00,
+      "currency": "CA",
+      "status": "ACTIVE",
+      "type": "CARD",
+      "customerId": "076a1181-6c1a-406e-846e-924e82fc3f32",
+      "params": {
+        "minAlertBalance": 100.00
+      }
+    }
+  ]
+}

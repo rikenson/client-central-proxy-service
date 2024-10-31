@@ -1,0 +1,21 @@
+### get individual
+GRAPHQL http://localhost:8080/global/client-proxy
+
+query  getActiveIndividual {
+    getBooks {
+        id
+        title,
+        year,
+        authors {
+            id
+            firstName
+            lastName
+        },
+        ratings{
+            score,
+            review,
+            customer,
+            created
+        }
+    }
+}

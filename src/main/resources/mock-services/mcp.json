@@ -1,0 +1,66 @@
+{
+  "individuals": [
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f01",
+      "firstName": "John",
+      "lastName": "Doe",
+      "gender": "M",
+      "dateOfBirth": "1980-01-01",
+      "phones": [
+        "613-555-1234",
+        "613-555-5678"
+      ],
+      "emails": [
+        "john.smith.doe@contact.com",
+        "john.smith.doe@info.com"
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f11",
+      "legalName": "XYZ Inc.",
+      "contacts": [
+        {
+          "name": "Genvieve Jean-Baptiste",
+          "emails": [
+            "geny.jbpt@domain.com"
+          ],
+          "phones": [
+            "514-908-3456"
+          ]
+        }
+      ],
+      "phones": [
+        "789-234-1238",
+        "789-789-9078"
+      ],
+      "emails": [
+        "contact@xyz.com",
+        "info@xyz.com"
+      ]
+    }
+  ],
+  "addresses": [
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f30",
+      "partyId": "076a1181-6c1a-406e-846e-924e82fc3f01",
+      "civicNumber": "123 B",
+      "city": "Ottawa",
+      "province": "ON",
+      "postalCode": "K1A 0G9",
+      "country": "Canada",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "076a1181-6c1a-406e-846e-924e82fc3f31",
+      "partyId": "076a1181-6c1a-406e-846e-924e82fc3f11",
+      "civicNumber": "456",
+      "city": "Toronto",
+      "province": "ON",
+      "postalCode": "M5V 2B8",
+      "country": "Canada",
+      "status": "ACTIVE"
+    }
+  ]
+}

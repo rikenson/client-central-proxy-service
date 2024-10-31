@@ -1,0 +1,30 @@
+scalar LocalDateTime
+scalar BigDecimal
+
+type Query {
+    getBooks: [BookResponse!]
+}
+
+type BookResponse {
+    id: String!
+    title: String!
+    year: Int!
+    authors: [AuthorResponse!]
+    ratings: [RatingResponse!]
+}
+
+type AuthorResponse {
+    id: String!
+    firstName: String!
+    lastName: String!
+    email: String!
+    bio: String!
+}
+
+type RatingResponse {
+    score: String!
+    review: String!
+    customer: String!
+    created: LocalDateTime!
+}
+

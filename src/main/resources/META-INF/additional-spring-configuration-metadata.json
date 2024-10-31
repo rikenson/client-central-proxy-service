@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "spring.data.mongodb.reader.authenticationDatabase",
+      "type": "java.lang.String",
+      "description": "Description for spring.data.mongodb.reader.authenticationDatabase."
+  }
+] }

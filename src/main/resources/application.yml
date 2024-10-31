@@ -1,0 +1,39 @@
+server:
+  port: 8080
+
+info:
+  app:
+    id: client-central-proxy
+    name: ${spring.application.name}
+    version: '@project.version@'
+
+api-url:
+  bookBaseUrl: http://localhost:4000/books
+  authorBaseUrl: http://localhost:4001/authors
+  ratingBaseUrl: http://localhost:4002/ratings
+
+
+spring:
+  application:
+    name: client-central-proxy
+  webflux:
+    base-path: /global
+  graphql:
+    graphiql:
+      enabled: true
+    schema:
+      inspection:
+        enabled: true
+    path: /client-proxy
+
+
+#logging:
+#  level:
+#    root: "DEBUG"
+#    org.springframework: "TRACE"
+
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
